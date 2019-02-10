@@ -1,0 +1,26 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: google-client-id
+            client-secret: google-client-secret
+          facebook:
+            client-id: 352996355541217
+            client-secret: 3817dbaa29a0eb67e5361ae67e186098
+  jpa:
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
+
+custom:
+  oauth2:
+    kakao:
+      client-id: 41ce881b89642333b7852a4f4fdc6e91
+
+logging:
+  level:
+    com:
+      community: debug
